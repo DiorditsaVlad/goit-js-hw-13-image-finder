@@ -6,7 +6,7 @@ export default class ImgApiService {
 
   fetchImages() {
     const URL = 'https://pixabay.com/api/';
-    const API_KEY = '23089683-10e6383e94187ff47334541d4';
+    const API_KEY = '23634410-bd912d8d36772bd1c0bd0325c';
     return fetch(
       `${URL}?image_type=photo&orientation=horizontal&q=${this.searchQuery}&page=${this.page}&per_page=12&key=${API_KEY}`,
     )

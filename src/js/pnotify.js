@@ -16,6 +16,6 @@ export function showError() {
 
 export function showAlert() {
   alert({
-    text: 'There is no pictures with this name :-(',
+    text: 'There is no pictures with this name :c',
   });
 }
